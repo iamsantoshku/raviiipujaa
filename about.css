@@ -1,0 +1,285 @@
+body{
+    /* width: 100%;
+height: 100vh;
+/* background-image: linear-gradient(rgba(1,1,1,3),transparent),url(IMG-20200712-WA0000.jpg); */
+/* background-image: linear-gradient(rgba(1, 1, 1, 0.8),transparent),url(ppp.png);
+background-size: cover;
+background-position: center;
+padding: 4 8%;
+/* position: relative; */ 
+margin: 0%;
+padding: 0%;
+/* z-index: fixed; */
+/* position: absolute; 
+*/
+overflow-y: unset;
+}
+.container1{
+    width: 100%;
+    height: 100vh;
+    /* background-image: linear-gradient(rgba(1,1,1,3),transparent),url(IMG-20200712-WA0000.jpg); */
+    background-image: linear-gradient(rgba(1, 1, 1, 0.8),transparent),url(pujaa1.png);
+    background-size: cover;
+    background-position: center;
+    padding: 4 8%;
+    position: absolute;
+}
+.text h2{
+ font-size: 70px;
+color: transparent;
+-webkit-text-stroke: 1px #fff;
+/* background-color: orange; */
+background-image: url(1.IMG.jpeg);
+-webkit-background-clip: text;
+background-position: 0 0;
+animation: back 70s linear;
+}
+.text h1{
+font-size: 150px;
+margin-left: 300px;
+color: transparent;
+-webkit-text-stroke: 1px #fff;
+/* background-color: orange; */
+background-image: url(images.jpeg);
+-webkit-background-clip: text;
+background-position: 0 0;
+animation: back 70s linear;
+    
+}
+.puja h1{
+    float: right;
+    font-size: 150px;
+    margin-right: 200px;
+    margin-top: -90px;
+    /* margin: 100px; */
+color: transparent;
+-webkit-text-stroke: 1px #fff;
+/* background-color: orange; */
+background-image: url(1.IMG.jpeg);
+-webkit-background-clip: text;
+background-position: 0 0;
+animation: back 20s linear;
+
+}
+@keyframes back{
+    100%{
+        background-position: 2000px 0;
+    }
+}
+.love{
+    height: 70px;
+    width: 70px;
+    /* background: #d7bfc6; */
+    background: transparent;
+    background: #f20044;
+    /* background-image: url(rrrr.jpg); */
+    position: relative;
+    transform: rotate(-45deg);
+    box-shadow: -10px 10px 90px #f20044;
+    animation: love 0.6s linear infinite;
+    margin-left: 800px;
+    margin-top: -250px;
+    /* margin-bottom: 500px; */
+    /* background-image: linear-gradient(rgba(1, 1, 1, 0.8),transparent),url(ppp.png); */
+}
+@keyframes love{
+    0%{
+        transform: rotate(-45deg) scale(1.07);
+    }
+    80%{
+        transform: rotate(-45deg) scale(1.0);
+    }
+    100%{
+        transform: rotate(-45deg) scale(0.8);
+    }
+}
+.love:before{
+    content: '';
+    position: absolute;
+    height: 70px;
+    width: 70px;
+    /* background: #c7b8bc; */
+    background: #f20044;
+    top: -50%;
+    border-radius: 50px;
+    box-shadow: -10px -10px 90px #f20044;;
+}
+.love:after{
+    content: '';
+    position: absolute;
+    height: 70px;
+    width: 70px;
+    /* background: #bda8ae; 
+    */
+    background: #f20044;
+    right: -50%;
+    border-radius: 50px;
+    box-shadow: -10px -10px 90px #f20044;
+
+}
+.navbar{
+    margin-top: -5px;
+}
+.navbar ul{
+    flex: 1;
+    text-align: right;
+    padding-right: 20px;
+    }
+    .navbar ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 10px;
+    font-size: 20px;
+    }
+    .navbar ul li a{
+    color: #fff;
+    text-decoration: none;
+    }
+    .navbar ul li a:hover{
+    color: aquamarine;
+    background-color: black;
+    
+    }
+    @media screen and (max-width: 680px) {
+        /* body {
+          background-color: lightgreen;
+        } */
+        /* .text{
+            margin-right: 100px;
+        } */
+        .text h1{
+            font-size: 60px;
+            /* margin-right: 40px; */
+            color: transparent;
+            /* margin-right: 50px; */
+            -webkit-text-stroke: 1px #fff;
+            margin-left: 210px;
+            /* background-color: orange; */
+            background-image: url(images.jpeg);
+            -webkit-background-clip: text;
+            background-position: 0 0
+            animation: back 70s linear;
+            /* margin-right: 20px; */
+            /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+            }
+            .text h2{
+                font-size: 30px;
+                color: transparent;
+                -webkit-text-stroke: 1px #fff;
+                /* background-color: orange; */
+                background-image: url(1.IMG.jpeg);
+                -webkit-background-clip: text;
+                background-position: 0 0;
+                animation: back 70s linear;
+            
+            }
+            
+            
+            .puja h1{
+                margin-left: 40px;
+                font-size: 80px;
+                color: transparent;
+                /* margin-top: 500px; */
+                -webkit-text-stroke: 1px #fff;
+            /* background-color: orange; */
+            background-image: url(images.jpeg);
+            -webkit-background-clip: text;
+            background-position: 0 0;
+            animation: back 70s linear;
+            margin-top: 100px;
+            }
+            
+            .weds{
+                /* float: right; */
+                /* margin-left: 30px;  */
+                font-size: larger;
+                /* margin-top: 10px; */
+                 font-size: 35px;
+                font-weight: 100; 
+                 margin-left: 20vh; 
+                 color: transparent;
+            -webkit-text-stroke: 1px #fff;
+            background-color: orange;
+            background-image: url(rrrr.jpg);
+            -webkit-background-clip: text;
+            background-position: 0 0;
+            animation: back 70s linear;
+                
+                
+             } 
+            .love{
+                height: 70px;
+                width: 70px;
+                /* background: #d7bfc6; */
+                background: transparent;
+                background: #f20044;
+                /* background-image: url(rrrr.jpg); */
+                position: relative;
+                transform: rotate(-45deg);
+                box-shadow: -10px 10px 90px #f20044;
+                animation: love 0.6s linear infinite;
+                margin-left: 200px;
+                margin-top: -410px;
+                /* margin-bottom: 500px; */
+                /* background-image: linear-gradient(rgba(1, 1, 1, 0.8),transparent),url(ppp.png); */
+            }
+            @keyframes love{
+                0%{
+                    transform: rotate(-45deg) scale(1.07);
+                }
+                80%{
+                    transform: rotate(-45deg) scale(1.0);
+                }
+                100%{
+                    transform: rotate(-45deg) scale(0.8);
+                }
+            }
+            .love:before{
+                content: '';
+                position: absolute;
+                height: 70px;
+                width: 70px;
+                /* background: #c7b8bc; */
+                background: #f20044;
+                top: -50%;
+                border-radius: 50px;
+                box-shadow: -10px -10px 90px #f20044;;
+            }
+            .love:after{
+                content: '';
+                position: absolute;
+                height: 70px;
+                width: 70px;
+                /* background: #bda8ae; 
+                */
+                background: #f20044;
+                right: -50%;
+                border-radius: 50px;
+                box-shadow: -10px -10px 90px #f20044;
+            }
+
+            .navbar ul{
+                flex: 1;
+                text-align: right;
+                padding-right: 10px;
+                color: rgb(221, 167, 97);
+                }
+                .navbar ul li{
+                display: inline-block;
+                list-style: none;
+                margin: 5px 5px;
+                font-size: 14px;
+                color: rgb(221, 167, 97);
+                }
+                .navbar ul li a{
+                color: #fff;
+                text-decoration: none;
+                color: rgb(221, 167, 97);
+                }
+                .navbar ul li a:hover{
+                color: aquamarine;
+                background-color: black;
+                
+                }
+    
+      }
